@@ -23,5 +23,5 @@ You need to install the **cryptography** package first:
 
 pip install cryptography
 
-**for more info ** : https://cryptography.io/en/latest/fernet/
+**for more info** : https://cryptography.io/en/latest/fernet/
 
