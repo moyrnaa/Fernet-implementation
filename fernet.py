@@ -6,10 +6,11 @@ print("Key:", key)
 
 f = Fernet(key)
 
-message = b"Secret message for encryption" # Message to be encrypted (must be bytes)
+message = input("WWhats your message : ")
+b_message = message.encode()  # Message to be encrypted (must be bytes)
 
 # Encrypt the message
-encrypted_message = f.encrypt(message)
+encrypted_message = f.encrypt(b_message)
 print("Encrypted:", encrypted_message)
 
 # Decrypt the message
