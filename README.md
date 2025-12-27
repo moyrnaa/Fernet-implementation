@@ -1,7 +1,7 @@
 # Fernet Encryption  
 This is Python Implementation of Fernet Encryption (Symmetric Encryption), a way to **securely lock and unlock messages** using the same secret key. It's great for protecting sensitive data like passwords, messages, or files.  
 
-⚠️ Note: Keep your key for yourself ! If someone gets access to it, they can decrypt your messages.  
+ Note: Keep your key for yourself ! If someone gets access to it, they can decrypt your messages.  
 
 ## What’s Fernet Encryption?  
 Fernet is a way to turn **plain text into unreadable text** (encryption) and back to normal (decryption) using a secret key. If you have the key, you can unlock the message. If not, it stays **completely unreadable**.  
